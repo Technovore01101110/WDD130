@@ -7,8 +7,8 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #edae49   ;
-  --secondary-color: #706C61 ;
+  --primary-color: #706C61   ;
+  --secondary-color: #edae49 ;
   --accent1-color: #3FA7D6;
   --accent2-color: #eeffdb;
 
