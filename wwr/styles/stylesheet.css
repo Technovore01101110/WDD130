@@ -49,6 +49,7 @@ nav a {
     color: #706C61;
     text-decoration: none;
     text-align: center;
+    font-family: 'Roboto Slab', serif;
 }
 
 nav a:hover {
