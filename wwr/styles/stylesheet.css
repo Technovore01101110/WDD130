@@ -79,6 +79,7 @@ h4 {
 
 .msg{
     background-color: #706C61;
+    line-height: 1.5em;
 }
 .msg h2 {
     color: #edae49;
@@ -113,4 +114,8 @@ footer p {
 
 p, h2 {
     font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+    margin: 0;
 }
