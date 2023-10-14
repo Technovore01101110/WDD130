@@ -104,10 +104,7 @@ footer p {
     width: 80px;
 }
 
-h1{
-    font-family: 'Bebas Neue', monospace;
-}
 
-p {
+p, h2 {
     font-family: 'Roboto Slab', serif;
 }
