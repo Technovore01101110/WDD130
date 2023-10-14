@@ -17,6 +17,10 @@ a {
     text-align: center;
 }
 
+#hero-msg h1 {
+    font-family: 'Bebas Neue', monospace;
+}
+
 .button-box {
     text-align: center;
 }
