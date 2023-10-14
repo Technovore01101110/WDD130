@@ -10,6 +10,10 @@
     width: 100%;
 } 
 
+#logo-link{
+    padding-top: 5px;
+}
+
 a {
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
@@ -53,6 +57,7 @@ nav a {
     text-decoration: none;
     text-align: center;
     font-family: 'Roboto Slab', serif;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -73,6 +78,7 @@ h4 {
     color: #706C61;
     background-color: #edae49;
     font-size: 18px;
+    padding: 15px 30px
 }
 
 .book:hover, .join:hover {
@@ -83,6 +89,7 @@ h4 {
 .msg{
     background-color: #706C61;
     line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #edae49;
@@ -91,11 +98,13 @@ h4 {
 .msg p {
     color: #eeffdb;
     font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: #edae49 ;
-    color: #706C61
+    color: #706C61;
+    padding: 25px 50px;
 }
 
 footer a {
@@ -106,12 +115,17 @@ footer a:hover {
     color: #3FA7D6 ;
 }
 
+footer, .social img {
+    padding-top: 15px;
+}
+
 footer p {
     font-size: 1.2em;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 
