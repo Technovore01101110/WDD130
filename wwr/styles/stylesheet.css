@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -96,3 +99,10 @@ footer p {
     width: 80px;
 }
 
+h1{
+    font-family: 'Bebas Neue', monospace;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+}
