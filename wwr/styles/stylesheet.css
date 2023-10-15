@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
 #content {
@@ -36,7 +35,7 @@ a {
 }
 
 #hero-msg h1 {
-    font-family: 'Bebas Neue', monospace;
+    font-family: 'Roboto Condensed', sans-serif;
     color: #edae49;
 }
 
@@ -89,6 +88,7 @@ nav a:hover {
 
 h4 {
     color: #706C61;
+    font-family: 'Roboto Slab', serif;
 }
 
 .book, .join {
