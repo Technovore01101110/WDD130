@@ -246,6 +246,7 @@ h2 {
     #hero, .home-grid {
         display: block;
         height: auto;
+        margin: 0 auto;
     }
     nav, footer {
         flex-direction: column;
@@ -272,6 +273,11 @@ h2 {
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
+    }
+
+    .card-img {
+        width: 100%;
+        margin: 0 auto; 
     }
     #background {
         display: none;
