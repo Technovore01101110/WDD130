@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+body {
+    background-color: #eeffdb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+header {
+    background-color: rgb(237,174,73, 0.8);
+    color: #706C61;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+#logo-link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+nav a {
+    color: #706C61;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #706C61;
+    color: #3FA7D6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #edae49;
+    color: #706C61;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #706C61;
+}
+
+footer a:hover {
+    color: #3FA7D6;
+}
+
+footer,
+.social img {
+    padding-top: 15px;
+}
+
+footer p {
+    font-size: 1.2em;
+}
