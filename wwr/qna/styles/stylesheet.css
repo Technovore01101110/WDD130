@@ -18,9 +18,6 @@ a {
     font-family: 'Roboto Slab', serif;
 }
 
-img{
-    width: 300px;
-}
 
 header {
     background-color: rgb(237,174,73, 0.8);
@@ -119,9 +116,13 @@ footer p {
 
 .panel img{
     padding: 15px;
+    width: 50%;
+    height: 50%;
+
 }
 .panel p{
     padding-bottom: 20px;
+    /* min-height: 199px; */
 }
   .accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
