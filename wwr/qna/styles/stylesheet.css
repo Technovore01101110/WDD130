@@ -120,10 +120,7 @@ footer p {
     height: 50%;
 
 }
-.panel p{
-    padding-bottom: 20px;
-    /* min-height: 199px; */
-}
+
   .accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
