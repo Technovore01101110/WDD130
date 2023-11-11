@@ -60,7 +60,12 @@ nav {
     display: flex;
     justify-content: space-around;
 }
-
+.title{
+    background-color: #706C61;
+    padding: 20px;
+    text-align: center;
+    color: #eeffdb;
+}
 footer {
     background-color: #edae49;
     color: #706C61;
@@ -93,7 +98,7 @@ footer p {
 }
 
 .accordion {
-    background-color: #eee;
+    background-color: #eeffdb;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -102,17 +107,18 @@ footer p {
     text-align: left;
     outline: none;
     font-size: 15px;
+    font-family: 'Roboto Slab', serif;
     transition: 0.4s;
     margin-top: 20px;
   }
   
   .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: #edae49;
   }
   
-  .panel {
+.panel {
     padding: 0 18px;
-    background-color: white;
+    background-color: #eeffdb;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -126,7 +132,9 @@ footer p {
     height: 50%;
 
 }
-
+.panel p{    
+    font-family: 'Roboto Slab', serif;
+}
   .accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
