@@ -2,13 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
 body {
-    /* background-color: #eeffdb; */
+    background-color: #eeffdb;
     font-family: Raleway, Arial, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
-    background-image: url(wwr\qna\images\background_image.jpg);
+    background-image: url(https://technovore01101110.github.io/WDD130/wwr/qna/images/background_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+
 
 p{
     font-size: 15px;
