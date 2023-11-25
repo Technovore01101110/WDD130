@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+  
+}
+body{ 
+    background-color: #eeffdb;  
+    font-family: 'Roboto Slab', serif;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+}
+img{
+    width: 80%;
+}
+
+h2{
+    font-size: 45px;
+}
+
+h4{
+    font-size: 30px;
+}
+p{
+     font-family: 'Roboto Slab', serif;
+}
+
+#logo-link{
+    padding-top: 5px;
+    padding-left: 20px;
+    justify-self: center;
+    align-self: center;
+    width: 80%;
+}
+
+header {
+    background-color: rgb(237,174,73);
+    color: #706C61;
+    display: grid;
+    grid-template-columns: 150px auto;
+    width: auto;
+    margin: 0 auto;
+}
+
+nav a {
+    color: #706C61;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    padding: 35px;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    background-color: #706C61;
+    color: #3FA7D6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 400px;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#hero_box img{
+    width: 100%;
+}
+
+#hero_box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero_msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 200px;
+}
+
+#hero_msg h1,
+#hero_msg h4 {
+    text-align: center;
+}
+
+#hero_msg h1 {
+    font-size: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #edae49;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+#hero_msg h4 {
+    font-family: 'Roboto Slab', sans-serif;
+    color: #3FA7D6;
+    text-shadow: 2px 2px 5px black;
+}
+
+.button_box {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.buy{
+    color: #706C61;
+    background-color: #edae49;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 60px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#order{
+    color: #edae49;
+    background-color: #706C61;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 60px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.buy:hover {
+    color: #3FA7D6;
+    background-color: #706C61;
+}
+
+#order:hover {
+    color: #3FA7D6;
+    background-color: #46433c;
+}
+
+#home-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.products{
+    box-shadow: 0px 0px 8px 0px black;
+    margin-top: -5px;
+    margin-bottom: 200px;
+    padding: 50px;
+    background-color: #706C61;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row: 1/3;
+    grid-column: 1/5;
+}
+
+.product{
+    text-align: center;
+}
+
+.product h3{
+    font-size: 40px;
+    color: #eeffdb;
+}
+
+.product img{
+    box-shadow: 0px 0px 8px 8px #3d3b35;
+}
+
+#see_more{
+    grid-column: 4/5;
+    color: #eeffdb;
+    text-align: right;
+    transition: 0.5s;
+}
+
+#see_more:hover{
+    color: #3FA7D6;
+    margin-right: -10px;
+}
+
+#background{
+    width: 100%;
+    background-color: #706C61;
+    grid-column: 1/5;
+    grid-row: 3/5;
+}
+
+#image_background{
+    padding-top: 50px;
+    grid-column: 1/5;
+    grid-row: 3/5;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.custom_print_msg{
+    grid-row: 4/5;
+    grid-column: 2/4;
+    background-color: #edae49;
+    text-align: center;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 3px 3px #46433d;
+}
+.custom_print_msg h2{
+    color: #eeffdb;
+}
+
+
+.custom_print_msg p{
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    color: #706C61;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #edae49;
+    color: #706C61;
+    padding: 25px 50px;
+    margin-top: 200px;
+    align-items: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a {
+    color: #706C61;
+}
+
+footer a:hover {
+    color: #3FA7D6;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+footer,
+.social img {
+    padding-top: 15px;
+}
+.social img{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.social{
+    margin: 0 auto;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p {
+    font-size: 1.2em;
+}
