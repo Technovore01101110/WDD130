@@ -380,7 +380,13 @@ width: 80%;
 }
 
 #custom_msg{
-    grid-column: 2/4;
+    margin: auto;
+    width: 60%;
+    height: 50%;
+    background-color: gray;
+    border-radius: 10px;
+    grid-column: 1/5;
     grid-row: 2/3;
+    text-align: center;
 }
 
