@@ -9,6 +9,8 @@
 body{ 
     background-color: #eeffdb;  
     font-family: 'Roboto Slab', serif;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 
@@ -148,7 +150,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.products{
+.hproducts{
     box-shadow: 0px 0px 8px 0px black;
     margin-top: -5px;
     margin-bottom: 200px;
@@ -171,6 +173,7 @@ nav {
 
 .product img{
     box-shadow: 0px 0px 8px 8px #3d3b35;
+    width: 50%;
 }
 
 #see_more{
@@ -272,3 +275,112 @@ footer,
 footer p {
     font-size: 1.2em;
 }
+.banner{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-items: center;
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+
+.banner h1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 50px;
+    color: #706C61;
+    text-shadow: 2px 2px 5px black;
+
+}
+
+#product_grid{
+    display: grid;
+    grid-template-columns: repeat(1fr, 4);
+
+}
+
+.products{
+    box-shadow: 0px 0px 8px 0px black;
+    margin-top: 10px;
+    margin-bottom: 200px;
+    margin-right: 10px;
+    padding: 50px;
+    background-color: #706c61b1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row: 1/2;
+    grid-column: 2/5;
+}
+
+.filter_bar{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 20px;
+    background-color: #edae49;
+    margin: 10px;
+    margin-right: 20px;
+    height: min-content;
+    position: sticky;
+}
+.checkboxes{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.checkboxes input{
+    width: 30%;
+}
+
+.checkboxes h3{
+    margin-left: -40px;
+}
+
+#search_bar input{
+font-size: 20px;
+width: 80%;
+}
+
+#search_bar button{
+    width: 15%;
+    font-size: 22px;
+    color: #eeffdb;
+    background-color: #706C61;
+    border: none;
+}
+
+.product_info{
+    display: flex;
+}
+
+.product_info h4{
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.product_info h4:nth-child(1){
+    color: rgb(152, 0, 0);
+}
+
+#custom_order_img{
+    width: 100%;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.custom_order img{
+    width: 100%;
+    grid-column: 1/5;
+}
+
+#custom_msg{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
