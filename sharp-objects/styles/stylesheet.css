@@ -343,14 +343,6 @@ font-size: 20px;
 width: 80%;
 }
 
-#search_bar button{
-    width: 15%;
-    font-size: 22px;
-    color: #eeffdb;
-    background-color: #706C61;
-    border: none;
-}
-
 .product_info{
     display: flex;
 }
@@ -388,5 +380,25 @@ width: 80%;
     grid-column: 1/5;
     grid-row: 2/3;
     text-align: center;
+    color: #edae49;
 }
 
+#custom_msg p{
+    padding-bottom: 20px;
+    color: #eeffdb;
+}
+
+#custom_msg a{
+    background-color: #edae49;
+    color: #3FA7D6;
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+#custom_msg a:hover{
+    color: #706C61;
+    background-color: #eeffdb;
+    padding: 20px;
+    transition: 0.5s;
+}
