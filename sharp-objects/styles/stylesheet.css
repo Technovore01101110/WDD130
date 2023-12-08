@@ -23,6 +23,10 @@ img{
     width: 80%;
 }
 
+h1{
+    font-family: 'Roboto Condensed', sans-serif;   
+}
+
 h2{
     font-size: 45px;
 }
@@ -408,6 +412,67 @@ width: 80%;
 
 /* Contact Page */
 
-.contact_page{
-    background-image: url("images/contact-banner.png");
+#contact_message{
+    width: 90%;
+    background-color: #706C61;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contact_message h1{
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contact_message section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+form{
+    width: min-content;
+}
+
+#contact_message h1{
+    text-align: center;
+}
+
+form{
+    grid-area: 1/1/2/4;
+}
+
+#contact_message section img{
+    width: 90%;
+    grid-area: 1/3/2/4;
+    margin-top: 20px;
+}
+
+ul{
+    width: max-content;
+    height: 700px;
+}
+
+.text_box{
+    width: 300%;
+    height: 50px;
+}
+
+.message_box{
+    height: 200px;
+    width: 400%;
+}
+
+ul section{
+    padding-bottom: 40px;
+    display: flex;
+}
+
+label{
+    width: auto;
+    grid-area: 1/1/2/4;
+    padding: 20px;
 }

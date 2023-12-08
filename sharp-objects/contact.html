@@ -6,6 +6,7 @@
     <title>Sharp Objects</title>
     <link rel="icon" type="image/x-icon" href="images/Sharp.png">
     <link rel="stylesheet" href="styles/stylesheet.css">
+    <script src="https://kit.fontawesome.com/410d284be7.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -19,35 +20,36 @@
     </header>
         <main class="contact_page">
             <div id="contact_message">
+                <h1>If you have any issues, contact us.</h1>
                 <section>
-                    <h1>If you have any issues, contact us.</h1>
                     <form action="mailto: 1sharpnathan@gmail.com" method="post" enctype="multipart/form-data">
                         <ul>
-                        <li>
-                            <label for="name">Name</label>
-                            <input type="text" id="subject" name="user_name" />
-                        </li>
-                          <li>
-                            <label for="name">Subject</label>
-                            <input type="text" id="subject" name="user_subject" />
-                          </li>
-                          <li>
-                            <label for="mail">Email:</label>
-                            <input type="email" id="mail" name="user_email" />
-                          </li>
-                          <li>
-                            <label for="msg">Message:</label>
-                            <textarea id="msg" name="user_message"></textarea>
-                          </li>
-                          <li class="button">
-                            <button type="submit">Send</button>
-                          </li>
+                        <section>
+                            <label class="text_label" for="name">Name</label>
+                            <input class="text_box" type="text" id="subject" name="user_name" />
+                        </section>
+                          <section>
+                            <label class="text_label" for="name">Subject</label>
+                            <input class="text_box" type="text" id="subject" name="user_subject" />
+                          </section>
+                          <section>
+                            <label class="text_label" for="mail">Email:</label>
+                            <input class="text_box"  type="email" id="mail" name="user_email" />
+                          </section>
+                          <section>
+                            <label class="text_label" for="msg">Message:</label>
+                            <textarea class="message_box" id="msg" name="user_message"></textarea>
+                          </section>
                         </ul>
                     </form>
+                    <div class="button">
+                        <button type="submit">Send</button>
+                    </div>
+
                     <img src="images/contact photo.png" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At amet, omnis deleniti maiores eum ab sit, minima, voluptatibus consequatur dolor molestiae quod et magni quis mollitia praesentium natus maxime iste?</p>
                     <div id="email">
-                        <img src="" alt="mail icon">
+                        <i class="fa-regular fa-envelope"></i>
                         <h4>email</h4>
                     </div>
                 </section>
