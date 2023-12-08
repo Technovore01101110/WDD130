@@ -409,5 +409,5 @@ width: 80%;
 /* Contact Page */
 
 .contact_page{
-    background-image: url(images/contact-banner.png);
+    background-image: url("images/contact-banner.png");
 }
