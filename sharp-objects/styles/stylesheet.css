@@ -412,11 +412,12 @@ width: 80%;
 
 /* Contact Page */
 
-.contact_page{
+.contact_background{
     background-image: url(https://technovore01101110.github.io/WDD130/sharp-objects/images/contact-banner.png); 
     background-repeat: no-repeat; 
-    background-size: cover;
+    background-size: 1600px;
     max-width: 1600px;
+    background-attachment: fixed;
 }
 
 #contact{
