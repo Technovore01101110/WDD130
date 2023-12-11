@@ -468,7 +468,7 @@ form{
     padding-bottom: 40px;
 }
 
-ul{
+.message_boxes{
     width: max-content;
 }
 
@@ -482,7 +482,7 @@ ul{
     width: 400%;
 }
 
-ul section{
+.message_boxes    section{
     padding-bottom: 40px;
     display: flex;
 }
