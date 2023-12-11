@@ -457,6 +457,7 @@ form{
 
 form{
     grid-area: 1/1/3/4;
+    margin-left: 5%;
 }
 
 #side_image{
