@@ -495,6 +495,9 @@ label{
     width: auto;
     grid-area: 1/1/2/4;
     padding: 10px;
+    font-size: 1.17em;
+    font-weight: bold;
+    color: #eeffdb;
 }
 
 .button{
