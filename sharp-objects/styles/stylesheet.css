@@ -304,7 +304,7 @@ footer p {
 
 #product_grid{
     display: grid;
-    grid-template-columns: repeat(1fr, 4);
+    grid-template-columns: repeat(4, 1fr);
 
 }
 
@@ -482,7 +482,7 @@ form{
     width: 400%;
 }
 
-.message_boxes    section{
+.message_boxes  section{
     padding-bottom: 40px;
     display: flex;
 }
