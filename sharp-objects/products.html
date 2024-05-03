@@ -214,5 +214,24 @@
                     </a>
                 </div>
             </footer>
+        <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    const checkboxes = document.querySelectorAll('.checkboxes input[type="checkbox"]');
+    checkboxes.forEach(function(checkbox) {
+        checkbox.addEventListener('change', function() {
+            const category = checkbox.nextElementSibling.textContent.trim().toLowerCase();
+            const products = document.querySelectorAll('.products .product');
+            products.forEach(function(product) {
+                const productTags = product.className.split(' '); // Get all classes
+                if (productTags.includes(category) || checkbox.checked === false) {
+                    product.style.display = 'block'; // Show product
+                } else {
+                    product.style.display = 'none'; // Hide product
+                }
+            });
+        });
+    });
+});
+        </script>
 </body>
 </html>
