@@ -31,7 +31,7 @@ h2{
     font-size: 45px;
 }
 
-h2{
+h4, h2{
     font-size: 30px;
 }
 p{
@@ -541,7 +541,3 @@ label{
     grid-column: 2/3;
     color: #eeffdb;
 }
-
-@media screen and (max-width: 900px) {
-  
-  }
