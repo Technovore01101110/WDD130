@@ -31,7 +31,7 @@ h2{
     font-size: 45px;
 }
 
-h4{
+h2{
     font-size: 30px;
 }
 p{
@@ -97,7 +97,7 @@ nav {
 }
 
 #hero_msg h1,
-#hero_msg h4 {
+#hero_msg h2 {
     text-align: center;
 }
 
@@ -109,7 +109,7 @@ nav {
 }
 
 
-#hero_msg h4 {
+#hero_msg h2 {
     font-family: 'Roboto Slab', sans-serif;
     color: #3FA7D6;
     text-shadow: 2px 2px 5px black;
