@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="products">
-                <section class="product">
+                <section class="product toys">
                     <img src="images/infinity_cube.png" alt="product image1">
                     <a href="#"> <h3>Infinity Cube</h3></a>
                     <div class="product_info">
@@ -49,7 +49,7 @@
                         <h4>3.99</h4>
                     </div>
                 </section>
-                <section class="product">
+                <section class="product toys">
                     <img src="images/NO_Image.png" alt="product image">
                     <a href="#"><h3>Product</h3></a>
                     <div class="product_info">
@@ -214,5 +214,24 @@
                     </a>
                 </div>
             </footer>
+        <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    const checkboxes = document.querySelectorAll('.checkboxes input[type="checkbox"]');
+    checkboxes.forEach(function(checkbox) {
+        checkbox.addEventListener('change', function() {
+            const category = checkbox.nextElementSibling.textContent.trim().toLowerCase();
+            const products = document.querySelectorAll('.products .product');
+            products.forEach(function(product) {
+                const productTags = product.className.split(' '); // Get all classes
+                if (productTags.includes(category) || checkbox.checked === false) {
+                    product.style.display = 'block'; // Show product
+                } else {
+                    product.style.display = 'none'; // Hide product
+                }
+            });
+        });
+    });
+});
+        </script>
 </body>
 </html>

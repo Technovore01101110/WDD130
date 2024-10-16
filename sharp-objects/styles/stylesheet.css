@@ -541,3 +541,7 @@ label{
     grid-column: 2/3;
     color: #eeffdb;
 }
+
+@media screen and (max-width: 900px) {
+  
+  }
