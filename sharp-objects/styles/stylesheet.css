@@ -593,6 +593,7 @@ label{
     .hproducts{
         display: flex;
         flex-direction: column;
+        margin-bottom: 100px;
     }
 
     .product img{
@@ -602,5 +603,13 @@ label{
     .footer-links{
         display: flex;
         flex-direction: column;
+    }
+
+    .social{
+        width: auto;
+    }
+
+    .social img{
+        width: 60%;
     }
 }
